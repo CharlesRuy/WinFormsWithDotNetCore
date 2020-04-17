@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeadByDaylight.Entities\WinFormsDotNetCore.Entities.csproj" />
+    <ProjectReference Include="..\DeadByDaylight.IBusiness\WinFormsDotNetCore.IBusiness.csproj" />
+    <ProjectReference Include="..\DeadByDaylight.IData\WinFormsDotNetCore.IData.csproj" />
+  </ItemGroup>
+
+</Project>
